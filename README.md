@@ -2,7 +2,7 @@
 
 ## ¿Cómo iniciar la página?
 
-Tienes dos opciones: 
+Tiene dos opciones: 
 
 1. Extensión [Live Server](https://github.com/ritwickdey/vscode-live-server). 
     1. Comprueba que lo tienes instalado. Si no es así busca `ritwickdey.liveserver` en el buscador de extensiones y descargala.
