@@ -4,12 +4,12 @@ html {
 	min-height: 100%;
 }
 body {
-	padding-top: 56px; /* should be the same value as .nav-hide */
+	padding-top: 63px; /* should be the same value as .nav-hide */
 	margin: 0px 0px 170px 0px; /*bottom = footer height*/
 }
 
 .nav-hide {
-    top: -56px;
+    top: -63px;
 }
 .nav-show {
 	top: 0;
