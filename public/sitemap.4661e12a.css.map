@@ -1,0 +1,1 @@
+{"version":3,"sources":["sitemap.css"],"names":[],"mappings":"AACA,SACI,cACJ,CACA,cACI,UACJ","file":"sitemap.4661e12a.css","sourceRoot":"../html","sourcesContent":["/* Style for sitemap.html */\n.sitemap {\n    font-size: 17px;\n}\n.sitemap li a {\n    color: blue;\n}"]}
