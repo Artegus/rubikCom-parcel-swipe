@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Artegus/kubeStore-web-ui.git"
+    "url": "git+https://github.com/Artegus/kubestore-parcel-swipe.git"
   },
   "author": "Gabriel Agustin Uriarte",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Artegus/kubeStore-web-ui/issues"
+    "url": "https://github.com/Artegus/kubestore-parcel-swipe/issues"
   },
-  "homepage": "https://github.com/Artegus/kubeStore-web-ui#readme",
+  "homepage": "https://github.com/Artegus/kubestore-parcel-swipe#readme",
   "dependencies": {
     "animate.css": "^4.1.1",
     "jquery": "^3.5.1",

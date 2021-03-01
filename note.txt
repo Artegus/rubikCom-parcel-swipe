@@ -1,4 +1,3 @@
 ¡IMPORTANTE!
 01/03/2021 - Funciona correctamente (fallo en css-loader.js) pero funciona.
 - Terminar la sección de Our cubes
-- Terminar la sección de Contest { first, second, third}

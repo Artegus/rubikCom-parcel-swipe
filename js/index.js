@@ -4,12 +4,26 @@ import { NavBarController } from './navbar'
 
 window.onload = (function () {
 
-    const email = $("#exampleEmailInput")
     const ig = $('.icon-social-ig')
     const fb = $('.icon-social-fb')
     const tw = $('.icon-social-tw')
 
+    // Animation to the social media buttons
+    ig.on('click', heartEffect)
+    tw.on('click', heartEffect)
+    fb.on('click', heartEffect)
+    // Simulate funcionality
+    simulateFunctionality()
+    // NavBar Controll
     NavBarController.init()
+
+})
+
+// Funcionality 
+export function simulateFunctionality () {
+
+    let email = $('#exampleEmailInput')
+
     /* Actual page */
     $('#breadcrumbs a:last-child').on('click', (e) => {
         e.preventDefault()
@@ -21,7 +35,8 @@ window.onload = (function () {
     /* Submit form */
     $('#subscribe').on('click', (e) => {
         e.preventDefault()
-        if (email.val() != '') {
+        let emailValue = email.val().trim()
+        if (/[a-zA-Z0-9]+@[a-zA-z]+\.[a-zA-Z]+/.test(emailValue)) {
             alert('Subscribed succesfully!')
             if (email.hasClass('animate__shakeX')) {
                 email.removeClass('animate__shakeX').removeClass('animate__animated')
@@ -35,18 +50,10 @@ window.onload = (function () {
             }, 1000);
         }
     })
-    /* Social media animations */
-
-    ig.on('click', heartEffect)
-    tw.on('click', heartEffect)
-    fb.on('click', heartEffect)
-
-
-})
-
-function heartEffect(e) {
+}
+// HeartEffect to elements
+export function heartEffect(e) {
     e.preventDefault()
-    console.log(e.target)
     $(e.target)
         .addClass('animate__animated')
         .addClass('animate__heartBeat')

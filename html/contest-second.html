@@ -23,17 +23,18 @@
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/sitemap.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="../css/contest.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- TimeLine query CSS-->
+    <link href="../css/jquery.roadmap.min.css" rel="stylesheet">
     <!-- Scripts
   ------------------------------->
-    <script src="../js/index.js"></script>
+    <script src="../js/contestSecond.js"></script>
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="../assets/favicon.png">
-    <title>Rubik's Community - Contest</title>
+    <title>Rubik's Community - Contests 2018</title>
 </head>
 
 <body>
@@ -50,12 +51,12 @@
             <li>
                 <a href="#">Contests</a>
                 <ul>
-                    <li><a href="contest-first.html">First</a></li>
-                    <li><a href="contest-second.html">Second</a></li>
-                    <li><a href="contest-third.html">Third</a></li>
+                    <li><a href="contest-first.html">Year 2019</a></li>
+                    <li><a href="contest-second.html">Year 2018</a></li>
+                    <li><a href="contest-third.html">Year 2017</a></li>
                 </ul>
             </li>
-            <li><a href="our-cubes.html">Our Cubes</a></li>
+            <!-- <li><a href="our-cubes.html">Try 3D Cube</a></li> -->
             <li class="icon">
                 <a href="#" class="open-menu">&#9776;</a>
             </li>
@@ -65,11 +66,53 @@
         </ul>
     </div>
 </nav>
+
     <section id="breadcrumbs">
         <div class="container u-max-full-width">
-            <a href="index.html">Home</a> > <a href="contest-second.html">Contest</a> > <a href="contest-second.html">Second</a>
+            <a href="index.html">Home</a> > <a href="contest-second.html">Contests</a> > <a href="contest-second.html">Year 2018</a>
         </div>
     </section>
+
+    <section id="timeline-contests">
+        <div class="container">
+            <div id="my-timeline">
+
+            </div>
+        </div>
+    </section>
+
+    <hr class="separate-section"/>
+
+    <section id="form-participate">
+        <div class="container">
+            <h5 class="bold-text">Stay tuned for the next competitions!</h5>
+            <form>
+                <div class="row">
+                  <div class="six columns">
+                    <label for="email">Your email</label>
+                    <input class="u-full-width" autocomplete="email" type="email" required placeholder="test@mailbox.com" id="email">
+                  </div>
+                  <div class="six columns">
+                    <label for="regionSelect">Your region</label>
+                    <select class="u-full-width" id="regionSelect">
+                      <option value="Europe">Europe</option>
+                      <option value="North America">North America</option>
+                      <option value="South America">South America</option>
+                      <option value="Africa">Africa</option>
+                    </select>
+                  </div>
+                </div>
+                <label for="message">Message</label>
+                <textarea class="u-full-width" placeholder="Hi i'm from..." id="message"></textarea>
+                <label class="send-yourself-copy">
+                  <input type="checkbox">
+                  <span class="label-body">Send a copy to yourself</span>
+                </label>
+                <input class="button-primary" type="submit" value="Submit" id="submitForm">
+              </form>
+        </div>
+    </section>
+
 
     <footer class="footer">
 

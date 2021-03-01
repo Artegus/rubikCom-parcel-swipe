@@ -1,5 +1,6 @@
 import $ from "jquery";
 // Global variables - hide nav on scroll down
+// NavaBar Controller 
 const NavBarController = (function () {
 
     var lastScrollTop = 0

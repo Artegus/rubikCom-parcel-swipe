@@ -1,10 +1,11 @@
+/* Position footer on the bottom of the page*/
 .footer {
     width: 100%;
 	margin-top: 50px;
     background-color: rgb(245, 245, 245);
     border-top: 1px solid #dcdcdc;
 }
-/* Position footer on the bottom of the page*/
+
 .footer {
 	position: absolute;
 	left: 0;
@@ -12,3 +13,12 @@
 	height: 170px;
 	width: 100%;
 }
+/* Footer titles*/
+.social-media a{
+    display: inline-block;
+    margin-left: 15px;
+}
+.bold-text {
+    font-weight: bold;
+}
+/* Footer title*/
