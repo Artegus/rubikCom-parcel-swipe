@@ -14,6 +14,9 @@ body {
 .nav-show {
 	top: 0;
 }
+.search {
+	margin-top: 10px;
+}
 /* Nav requirements */
 /* Logo */
 .logo {
@@ -129,6 +132,32 @@ nav ul li.icon { display: none; }
 	}
 }
 
+/* Larger than mobile */
+@media (min-width: 400px) {
+	.search {
+		display: none;
+	}
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+	.search {
+		display: none;
+	}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	.search {
+		display: none;
+	}
+}
+/* Larger than tablet */
+@media (min-width: 1000px) {
+	.search {
+		display: inline-block;
+	}
+}
 /* The "mobile" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the nav look good on small screens */
 @media screen and (max-width:880px) {
 	nav.mobile ul { /* position: relative; */ }
