@@ -8,11 +8,14 @@ Tienes dos opciones:
     1. Comprueba que lo tienes instalado. Si no es así busca `ritwickdey.liveserver` en el buscador de extensiones y descargala.
     2. Usando Live Server situate en la carpeta `public/` e inicia ahí el servidor de pruebas.
 
+![Live Server](./gifs/liveServer.gif)
+
 2. Node y npm. 
     1. Instalar las dependecias necesarias `npm install`
     2. Iniciar el servidor `node index.js`
     3. Servidor abierto en `http://localhost:2525`
 
+![Node y npm](./gifs/NodeNpm.gif)
 
 ## Archivos de la página
 
