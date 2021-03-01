@@ -1,0 +1,30 @@
+{
+  "name": "kubestore_designweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "dev": "parcel html/index.html html/sitemap.html html/history.html html/our-cubes.html html/contest-first.html html/contest-second.html html/contest-third.html --no-cache",
+    "test": "parcel html/index.html --no-cache",
+    "build" : "parcel build html/index.html html/sitemap.html html/history.html html/our-cubes.html html/contest-first.html html/contest-second.html html/contest-third.html --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artegus/kubeStore-web-ui.git"
+  },
+  "author": "Gabriel Agustin Uriarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Artegus/kubeStore-web-ui/issues"
+  },
+  "homepage": "https://github.com/Artegus/kubeStore-web-ui#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "jquery": "^3.5.1",
+    "parcel-bundler": "^1.3.1",
+    "swiper": "^6.4.15"
+  },
+  "devDependencies": {
+    "css-loader": "^5.1.0"
+  }
+}

@@ -1,0 +1,37 @@
+.tl-text-content{
+    text-shadow: none !important;
+    color: grey !important;
+}
+.tl-slide {
+    text-shadow: none !important;
+    color: grey !important;
+} 
+.tl-slide-titleslide {
+    text-shadow: none !important;
+    color: grey !important;
+}
+.tl-text-content-container {
+    text-shadow: none !important;
+    color: none !important;
+}
+.tl-slide {
+    text-shadow: none !important;
+    color: grey !important;
+}
+.tl-full-color-background{
+    text-shadow: none !important;
+}
+
+.tl-headline {
+    color: red !important;
+}
+.tl-headline-title {
+    color: red !important;
+}
+
+.tl-credit {
+    color: grey !important;
+}
+.tl-caption {
+    color: grey !important;
+}
