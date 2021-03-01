@@ -1,6 +1,6 @@
 # Rubik's community 
 
-## ¿Como iniciar la página?
+## ¿Cómo iniciar la página?
 
 Tienes dos opciones: 
 
