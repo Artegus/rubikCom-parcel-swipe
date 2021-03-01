@@ -131,7 +131,7 @@ nav ul li.icon { display: none; }
 		display: inline-block;
 	}
 }
-
+/* Search input */
 /* Larger than mobile */
 @media (min-width: 400px) {
 	.search {
@@ -158,6 +158,7 @@ nav ul li.icon { display: none; }
 		display: inline-block;
 	}
 }
+/* Search input */
 /* The "mobile" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the nav look good on small screens */
 @media screen and (max-width:880px) {
 	nav.mobile ul { /* position: relative; */ }
